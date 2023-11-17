@@ -26,3 +26,5 @@
  
  ##### This documentation provides an overview of SpeakFree, its  functionalities, technologies used, and the skills acquired  during its development. For further details, access to the  codebase or specific inquiries, please contact the project  owner or developer.
 
+![SpeakFree - Home](https://github.com/DanielsWebDevelopment/MERN-SpeakFree/assets/129445203/23d10e77-b6a8-450b-bc30-d54c31f48fa1)
+
