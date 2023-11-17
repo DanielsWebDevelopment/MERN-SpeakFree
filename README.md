@@ -1,4 +1,4 @@
-## SpeakFree Project Documentation
+# SpeakFree Project Documentation
  ### Overview
 ##### SpeakFree is a web application dedicated to helping individuals improve their communication skills and manage stuttering through a variety of challenges and exercises. This project is built using React.js for the front-end, Node.js and Express for the back-end, Axios for API communication, and MySQL for the database.
 
