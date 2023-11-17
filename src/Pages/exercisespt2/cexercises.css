@@ -1,0 +1,394 @@
+.communication__container {
+  width: 95%;
+  height: 2050px;
+  background-color: #ffffff;
+  margin: 0px auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.communications__title {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.communications__title h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  text-shadow: 10px 20px 2px rgba(168, 168, 168, 0.5);
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+.communications__title span {
+  color: var(--line-color);
+}
+
+.communication-title1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.communication-title1 {
+  margin-top: 60px;
+}
+
+.communication-title1 small {
+  font-size: 1.9rem;
+  font-weight: 600;
+  text-align: left;
+  position: relative;
+  top: 10px;
+}
+
+.communication-title2 small {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.1rem;
+  text-shadow: 2px 4px 24px rgb(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+
+.communications_line1 {
+  height: 3px;
+  width: 100%;
+  background: var(--line-color);
+}
+
+.communications_wrapper {
+  width: 100%;
+  height: 100%;
+  background: #40b5ec1f;
+  margin-top: 80px;
+  border-radius: 20px;
+  box-shadow: 3px 2px 44px rgb(0, 0, 0, 0.3);
+}
+
+.main__communication-exercises {
+  position: absolute;
+  top: 36%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+
+#communication-card {
+  height: 380px;
+  min-width: 360px;
+  background-color: #fff;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  box-shadow: 3px 5px 20px rgb(0, 0, 0, 0.5);
+  border: 1px solid #ffffff;
+  position: relative;
+  right: 15px;
+}
+
+.communications__card-title {
+  background: var(--color-primary);
+  padding: 4px;
+  box-shadow: 4px 12px 20px rgb(0, 0, 0, 0.3);
+  transition: 0.5s ease;
+  color: #ffffff;
+}
+
+.communications__card-title h3 {
+  font-size: 18px;
+  margin: 15px 12px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.communication_instructions-title {
+  margin: 25px 12px;
+}
+
+.communication_instructions-title h5 {
+  color: #fffffffd;
+  position: relative;
+  left: 10px;
+}
+
+.communication_instructions-title h5::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 98;
+  height: 2px;
+  width: 40%;
+  background: var(--color-primary);
+  top: 35px;
+}
+
+#communications__info p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.communications__cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.communications__cta button {
+  height: 40px;
+  width: 40px;
+  background: var(--line-color);
+  border-radius: 50%;
+  transition: 0.5s ease;
+  margin-left: 280px;
+  box-shadow: 3px 2px 12px rgb(0, 0, 0, 0.5);
+  position: relative;
+  top: 150px;
+}
+
+.communications__ctabutton:hover {
+  background-color: #7dacf15d;
+  color: #020202;
+}
+
+.communications_icon {
+  font-size: 22px;
+  position: relative;
+  right: 11px;
+}
+
+/* ========================= SM Media Queries*/
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  #communication-card {
+    height: 380px;
+    min-width: 360px;
+    -webkit-box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+    box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+    background: linear-gradient(
+      50deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(88, 7, 180, 1) 49%,
+      rgba(112, 112, 112, 1) 50%
+    );
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 1px solid #ffffff;
+    position: relative;
+    left: 2px;
+  }
+
+  .communication__container {
+    width: 95%;
+    height: 240vh;
+    background-color: #ffffff;
+    margin: 0px auto;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .communications__title h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-shadow: 10px 20px 2px rgba(168, 168, 168, 0.5);
+    text-align: center;
+    position: relative;
+    top: 10px;
+  }
+}
+
+
+/* ========================= MD Media Queries*/
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  #communication-card {
+    height: 380px;
+    min-width: 90%;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    -webkit-box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+    box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+    background: linear-gradient(
+      50deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(88, 7, 180, 1) 49%,
+      rgba(112, 112, 112, 1) 50%
+    );
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 1px solid #ffffff;
+    position: relative;
+    left: 2px;
+  }
+}
+
+/* ========================= MD Media Queries*/
+@media screen and (min-width: 769px) and (max-width: 943px) {
+  #communication-card {
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    -webkit-box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+    box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+    background: linear-gradient(
+      50deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(88, 7, 180, 1) 49%,
+      rgba(112, 112, 112, 1) 50%
+    );
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 1px solid #ffffff;
+    position: relative;
+    left: 2px;
+  }
+}
+
+/* ========================= LG Media Queries*/
+@media screen and (min-width: 944px) and (max-width: 1024px) {
+  #communication-card {
+    height: 380px;
+    min-width: 45%;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    -webkit-box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+    box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+    background: linear-gradient(
+      50deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(88, 7, 180, 1) 49%,
+      rgba(112, 112, 112, 1) 50%
+    );
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 1px solid #ffffff;
+    position: relative;
+    left: 2px;
+  }
+
+  .communication__container {
+    width: 95%;
+    height: 160vh;
+    background-color: #ffffff;
+    margin: 0px auto;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+}
+
+/* ========================= LG Media Queries*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .communication__container {
+    width: 95%;
+    height: 160vh;
+    background-color: #ffffff;
+    margin: 0px auto;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  #communication-card {
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    -webkit-box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+    box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+    background: linear-gradient(
+      50deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(88, 7, 180, 1) 49%,
+      rgba(112, 112, 112, 1) 50%
+    );
+  }
+}
+
+/* ========================= LG/XL Media Queries*/
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .communication__container {
+    width: 95%;
+    height: 110vh;
+    background-color: #ffffff;
+    margin: 0px auto;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  #communication-card {
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    -webkit-box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+    box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+    background: linear-gradient(
+      50deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(88, 7, 180, 1) 49%,
+      rgba(112, 112, 112, 1) 50%
+    );
+  }
+}
+
+/* ========================= XL Media Queries*/
+@media screen and (min-width: 1401px) and (max-width: 1650px) {
+  .communication__container {
+    width: 95%;
+    height: 110vh;
+    background-color: #ffffff;
+    margin: 0px auto;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .main__communication-exercises {
+    position: absolute;
+    top: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  #communication-card {
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    -webkit-box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+    box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+    background: linear-gradient(
+      50deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(88, 7, 180, 1) 49%,
+      rgba(112, 112, 112, 1) 50%
+    );
+  }
+}
+
+/* ========================= XXL Media Queries*/
+@media screen and (min-width: 1651px) and (max-width: 2100px) {
+  .communication__container {
+    width: 95%;
+    height: 100vh;
+    background-color: #ffffff;
+    margin: 0px auto;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  #communication-card {
+    height: 380px;
+    width: 25%;
+    -webkit-box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+    box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+    background: linear-gradient(
+      50deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(88, 7, 180, 1) 49%,
+      rgba(112, 112, 112, 1) 50%
+    );
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 1px solid #ffffff;
+    position: relative;
+    left: 2px;
+  }
+}

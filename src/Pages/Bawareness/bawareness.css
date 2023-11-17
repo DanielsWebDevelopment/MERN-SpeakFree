@@ -1,0 +1,431 @@
+.awareness_exercises_card {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+    -webkit-box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71); 
+    box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71);
+    border-radius: 5px;
+    width: 80%;
+    padding: 12px;
+}
+
+.awareness_exercises_card h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.awareness_exercises_card a {
+    position: relative;
+    right: 210px;
+    margin-top: 20px;
+    padding: 8px 15px;
+    position: relative;
+    bottom: 15px;
+    background-color: #126de6;
+    box-shadow: -3px 5px 14px rgb(0,0,0,0.1);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+.awareness_exercises_card a:hover {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #333;
+}
+
+.awareness_info {
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 2;
+    letter-spacing: .02rem;
+    color: #fff;
+}
+
+.awareness_info1 {
+    font-size: 14px;
+    position: relative;
+    right: 12px;
+    font-weight: 600;
+    line-height: 2;
+    letter-spacing: .02rem;
+}
+
+.blobs1 {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+
+.blobs {
+    position: relative;
+    top: 20px;
+    right: 40px;
+}
+
+.dashboard-prev {
+    position: absolute;
+    top: 5%;
+    left: 75%;
+}
+
+.dashboard-prev a {
+    box-shadow: -3px 5px 24px rgba(139, 139, 139, 0.2);
+    color: #1d1d1d;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 8px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dashboard-prev a:hover {
+    background: var(--line-color);
+    color: #fff;
+    border: 1px solid #ffffff;
+}
+
+.breathing-control_card {
+    background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+    border: 1px solid var(--line-color);
+    box-shadow: -3px 5px 24px rgba(48, 48, 48, 0.2);
+    border-radius: 8px;
+    padding: 30px;
+    min-width: 750px;
+}
+
+.breathing-control_card button {
+    width: 150px;
+    height: 40px;
+    outline: none;
+    background: var(--line-color);
+    color: #f8f8f8;
+    box-shadow: none;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    box-shadow: 0 4px 14px rgb(0,0,0,0.3);
+    transition: 0.4s;
+    text-transform: uppercase;
+}
+
+#breathing_control-excerise {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.breating__exercise {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .05rem;
+    position: relative;
+    bottom: 10px;
+    color: #fff;
+}
+
+
+#breating__exercise1 {
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+.breathing_subinfo {
+    background-color: #e7e7e734;
+    margin-top: 150px;
+    position: relative;
+    bottom: 60px;
+}
+
+.breathing_subinfo p {
+    font-weight: 500;
+}
+
+/* ========================= SM Media Queries*/
+@media screen and (min-width: 420px) and (max-width: 600px) {
+    .awareness_exercises_card {
+        position: relative;
+        bottom: 150px;
+        margin: 0px auto;
+        background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+        -webkit-box-shadow: -10px 6px 24px 8px rgba(189,189,189,0.64); 
+        box-shadow: -10px 6px 24px 8px rgba(189,189,189,0.64);
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        width: 80%;
+        padding: 12px;
+    }
+
+    .awareness_exercises_card h1 {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 30px;
+        color: #fff;
+    }
+
+    .awareness_info {
+        text-align: left;
+        font-size: 16px;
+        margin-top: 30px;
+        font-weight: 600;
+        line-height: 1.6;
+        letter-spacing: .02rem;
+        padding: 8px;
+        color: #fff;
+    }
+
+    .awareness_exercises_card a {
+        position: relative;
+        right: 100px;
+        margin-top: 20px;
+        padding: 8px 15px;
+        position: relative;
+        bottom: 15px;
+        background-color: #126de6;
+        box-shadow: -3px 5px 14px rgb(0,0,0,0.1);
+        color: #fff;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 400;
+        transition: 0.5s;
+    }
+
+    .breathing-control_card {
+        background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+        border: 1px solid var(--line-color);
+        box-shadow: -3px 5px 24px rgba(48, 48, 48, 0.2);
+        border-radius: 8px;
+        padding: 30px;
+        min-width: 80%;
+    }
+
+    #breating__exercise1 {
+        font-size: 20px;
+        position: relative;
+        bottom: 10px;
+        color: #fff;
+    }
+    
+
+    .breathing_subinfo {
+        text-align: center;
+        background-color: #e7e7e734;
+        margin-top: 150px;
+        position: relative;
+        bottom: 130px;
+        padding: 30px;
+    }
+
+    .breating__exercise {
+        color: #fff;
+        margin-top: 30px;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: .05rem;
+        position: relative;
+        bottom: 10px;
+    }
+}
+
+/* ========================= MD Media Queries*/
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .awareness_info {
+        text-align: left;
+        font-size: 16px;
+        margin-top: 30px;
+        font-weight: 600;
+        line-height: 1.6;
+        letter-spacing: .02rem;
+        padding: 8px;
+        color: #fff;
+    }
+
+    .awareness_exercises_card a {
+        position: relative;
+        right: 180px;
+        margin-top: 20px;
+        padding: 8px 15px;
+        position: relative;
+        bottom: 15px;
+        background-color: #126de6;
+        box-shadow: -3px 5px 14px rgb(0,0,0,0.1);
+        color: #fff;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 400;
+        transition: 0.5s;
+    }
+
+    .breathing-control_card {
+        background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+        border: 1px solid var(--line-color);
+        box-shadow: -3px 5px 24px rgba(48, 48, 48, 0.2);
+        border-radius: 8px;
+        padding: 30px;
+        min-width: 80%;
+    }
+}
+
+/* ========================= MD Media Queries*/
+@media screen and (min-width: 769px) and (max-width: 943px) {
+    .breathing-control_card {
+        background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+        border: 1px solid var(--line-color);
+        box-shadow: -3px 5px 24px rgba(48, 48, 48, 0.2);
+        border-radius: 8px;
+        padding: 30px;
+        min-width: 80%;
+    }
+}
+
+/* ========================= LG/XL Media Queries*/
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .awareness_exercises_card {
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+        -webkit-box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71); 
+        box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71);
+        border-radius: 5px;
+        width: 60%;
+        padding: 12px;
+    }
+
+    .awareness_info {
+        text-align: left;
+        font-size: 16px;
+        margin-top: 30px;
+        font-weight: 600;
+        line-height: 1.6;
+        letter-spacing: .02rem;
+        padding: 8px;
+        color: #fff;
+    }
+
+    .awareness_exercises_card a {
+        position: relative;
+        right: 300px;
+        margin-top: 20px;
+        padding: 8px 15px;
+        position: relative;
+        bottom: 15px;
+        background-color: #126de6;
+        box-shadow: -3px 5px 14px rgb(0,0,0,0.1);
+        color: #fff;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 400;
+        transition: 0.5s;
+    }
+}
+
+/* ========================= XL Media Queries*/
+@media screen and (min-width: 1401px) and (max-width: 1650px)  {
+    .awareness_exercises_card {
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+        -webkit-box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71); 
+        box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71);
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        width: 60%;
+        padding: 12px;
+    }
+
+    .awareness_info {
+        text-align: left;
+        font-size: 16px;
+        margin-top: 30px;
+        font-weight: 600;
+        line-height: 1.6;
+        letter-spacing: .02rem;
+        padding: 8px;
+        color: #fff;
+    }
+
+    .awareness_exercises_card a {
+        position: relative;
+        right: 390px;
+        margin-top: 20px;
+        padding: 8px 15px;
+        position: relative;
+        bottom: 15px;
+        background-color: #126de6;
+        box-shadow: -3px 5px 14px rgb(0,0,0,0.1);
+        color: #fff;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 400;
+        transition: 0.5s;
+    }
+}
+
+/* ========================= XXL Media Queries*/
+@media screen and (min-width: 1651px) and (max-width: 2100px) {
+    .awareness_exercises_card {
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+        -webkit-box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71); 
+        box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71);
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        width: 60%;
+        padding: 12px;
+    }
+
+    .awareness_info {
+        text-align: left;
+        font-size: 16px;
+        margin-top: 30px;
+        font-weight: 600;
+        line-height: 1.6;
+        letter-spacing: .02rem;
+        padding: 8px;
+        color: #fff;
+    }
+
+    .awareness_exercises_card a {
+        position: relative;
+        right: 480px;
+        margin-top: 20px;
+        padding: 8px 15px;
+        position: relative;
+        bottom: 15px;
+        background-color: #126de6;
+        box-shadow: -3px 5px 14px rgb(0,0,0,0.1);
+        color: #fff;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 400;
+        transition: 0.5s;
+    }
+}

@@ -1,0 +1,418 @@
+/* ========================Main container  */
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  margin-top: 140px;
+  margin-left: 50px;
+}
+/* ======================== End Main container  */
+
+/* ========================= Main header Section */
+.main-input input {
+  width: 450px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  box-shadow: 4px 10px 20px rgb(0, 0, 0, 0.5);
+}
+
+.main-content h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 160px;
+  position: relative;
+  left: 10px;
+  text-shadow: -5px 10px 0px rgba(172, 172, 172, 0.5);
+}
+
+.main-content small {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  position: relative;
+  bottom: 145px;
+  margin-left: 10px;
+}
+
+/* ============================ Header Image */
+.main-img1 img {
+  height: 350px;
+  width: 220px;
+}
+
+.mainimg2 {
+  position: relative;
+  left: 30px;
+  top: 60px;
+}
+
+.mainimg1 {
+  position: relative;
+  left: 150px;
+  bottom: 290px;
+  transform: translate(0) rotate(12deg);
+  transition: 0.5s ease;
+}
+
+.mainimg1:hover {
+  transform: translate(0) rotate(5deg);
+}
+
+/* ============================ End Header Image */
+
+.main-input input {
+  margin: 0 auto;
+}
+
+.animationblobs {
+  position: absolute;
+  right: 52%;
+  top: 38%;
+}
+
+/* ========================= End Main header Section */
+
+/* ========================= SM Media Queries*/
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  /* ========================Main container  */
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-top: 140px;
+    margin-left: 50px;
+  }
+
+  .main-img1 img {
+    height: 400px;
+    width: 300px;
+  }
+
+  .mainimg2 {
+    position: relative;
+    left: 30px;
+    top: 30px;
+  }
+
+  .mainimg1 {
+    position: relative;
+    left: 150px;
+    bottom: 350px;
+    transform: translate(0) rotate(12deg);
+    transition: 0.5s ease;
+  }
+
+  .mainimg1:hover {
+    transform: translate(0) rotate(5deg);
+  }
+
+  .animationblobs {
+    position: absolute;
+    left: 12%;
+    top: 28%;
+  }
+
+}
+/* ========================= End SM Media Queries*/
+
+/* ========================= MD Media Queries*/
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+
+  .main-img1 img {
+    height: 335px;
+    width: 275px;
+  }
+
+  .mainimg2 {
+    position: absolute;
+    top: 63%;
+    left: 23%;
+  }
+
+  .mainimg1 {
+    position: relative;
+    left: 60px;
+    bottom: 15px;
+    transform: translate(0) rotate(12deg);
+    transition: 0.5s ease;
+  }
+
+  .mainimg1:hover {
+    transform: translate(0) rotate(5deg);
+  }
+
+  .animationblobs {
+    width: 250px;
+    position: absolute;
+    left: 42%;
+    top: 20%;
+  }
+
+  .main-content h1 {
+    font-size: 58px;
+    font-weight: 600;
+    margin-bottom: 160px;
+    position: relative;
+    left: 10px;
+    text-shadow: -5px 10px 0px rgba(172, 172, 172, 0.5);
+  }
+  
+  .main-content small {
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    position: relative;
+    bottom: 145px;
+    margin-left: 10px;
+  }
+}
+/* ========================= End MD Media Queries*/
+
+/* ========================= LG Media Queries*/
+@media screen and (min-width: 944px) and (max-width: 1024px) {
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+
+  .main-img1 img {
+    height: 325px;
+    width: 265px;
+  }
+
+  .mainimg2 {
+    position: absolute;
+    top: 23%;
+    left: 53%;
+  }
+
+  .mainimg1 {
+    position: relative;
+    left: 0px;
+    bottom: 45px;
+    transform: translate(0) rotate(12deg);
+    transition: 0.5s ease;
+  }
+
+  .mainimg1:hover {
+    transform: translate(0) rotate(5deg);
+  }
+
+  .animationblobs {
+    width: 150px;
+    position: absolute;
+    left: 12%;
+    top: 18%;
+  }
+}
+
+/* ========================= LG Media Queries*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+
+  .main-img1 img {
+    height: 355px;
+    width: 265px;
+  }
+
+  .mainimg2 {
+    position: absolute;
+    top: 20%;
+    left: 54%;
+  }
+
+  .mainimg1 {
+    position: relative;
+    left: 0px;
+    bottom: 55px;
+    transform: translate(0) rotate(12deg);
+    transition: 0.5s ease;
+  }
+
+  .mainimg1:hover {
+    transform: translate(0) rotate(5deg);
+  }
+
+  .animationblobs {
+    width: 150px;
+    position: absolute;
+    left: 12%;
+    top: 18%;
+  }
+}
+
+/* ========================= LG/XL Media Queries*/
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+
+  .main-content h1 {
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 160px;
+    position: relative;
+    left: 10px;
+    text-shadow: -5px 10px 0px rgba(172, 172, 172, 0.5);
+  }
+
+  .main-img1 img {
+    height: 375px;
+    width: 260px;
+  }
+
+  .mainimg2 {
+    position: absolute;
+    top: 20%;
+    left: 58%;
+  }
+
+  .mainimg1 {
+    position: relative;
+    left: 0px;
+    bottom: 55px;
+    transform: translate(0) rotate(12deg);
+    transition: 0.5s ease;
+  }
+
+  .mainimg1:hover {
+    transform: translate(0) rotate(5deg);
+  }
+
+  .animationblobs {
+    width: 150px;
+    position: absolute;
+    left: 12%;
+    top: 18%;
+  }
+}
+
+/* ========================= XL Media Queries*/
+@media screen and (min-width: 1401px) and (max-width: 1650px) {
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+
+  .main-content h1 {
+    font-size: 56px;
+    font-weight: 600;
+    margin-bottom: 160px;
+    position: relative;
+    left: 10px;
+    text-shadow: -5px 10px 0px rgba(172, 172, 172, 0.5);
+  }
+
+  .main-img1 img {
+    height: 385px;
+    width: 280px;
+  }
+
+  .mainimg2 {
+    position: absolute;
+    top: 20%;
+    left: 58%;
+  }
+
+  .mainimg1 {
+    position: relative;
+    left: 0px;
+    bottom: 55px;
+    transform: translate(0) rotate(12deg);
+    transition: 0.5s ease;
+  }
+
+  .mainimg1:hover {
+    transform: translate(0) rotate(5deg);
+  }
+
+  .animationblobs {
+    width: 150px;
+    position: absolute;
+    left: 12%;
+    top: 18%;
+  }
+}
+
+/* ========================= XXL Media Queries*/
+@media screen and (min-width: 1651px) and (max-width: 2100px) {
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+    margin-top: 230px;
+    margin-left: 50px;
+  }
+
+  .main-content h1 {
+    font-size: 58px;
+    font-weight: 600;
+    margin-bottom: 160px;
+    position: relative;
+    left: 10px;
+    text-shadow: -5px 10px 0px rgba(172, 172, 172, 0.5);
+  }
+
+  .main-img1 img {
+    height: 380px;
+    width: 290px;
+  }
+
+  .mainimg2 {
+    position: absolute;
+    top: 23%;
+    left: 56%;
+  }
+
+  .mainimg1 {
+    position: relative;
+    left: 0px;
+    bottom: 55px;
+    transform: translate(0) rotate(12deg);
+    transition: 0.5s ease;
+  }
+
+  .mainimg1:hover {
+    transform: translate(0) rotate(5deg);
+  }
+
+  .animationblobs {
+    position: absolute;
+    left: 20%;
+    top: 18%;
+  }
+}

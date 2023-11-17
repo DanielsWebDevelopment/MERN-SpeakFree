@@ -1,0 +1,519 @@
+.dashboard__container {
+    display: flex;
+}
+
+.main-sidebar__logo img {
+    height: 40px;
+    position: relative;
+    right: 170px;
+    top: 10px;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 280px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    overflow: hidden;
+    background: linear-gradient(to top, #2b05b4 30%, #a806d1 90%);
+    color: #fff;
+}
+
+.logo {
+    height: 80px;
+    padding: 16px;
+}
+
+.sidebar-main {
+    height: 88%;
+    position: relative;
+    padding: 0;
+}
+
+.sidebar-main li {
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.sidebar-main li:hover {
+    background-color: #4853eba4;
+}
+
+.sidebar-main li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.sidebar-main li:hover,
+.active {
+    background-color: #7956fa;
+}
+
+.sidebar-main a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sidebar-main a span {
+    overflow: hidden;
+}
+
+.sidebar-icon {
+    font-size: 22px;
+}
+
+.logout {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.main-dashboard_container {
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1rem;
+}
+
+.dashboard-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #333333;
+    border-radius: 8px;
+    padding: 10px 2rem;
+}
+
+.dashboard-title {
+    color: #fff;
+}
+
+.dashboard-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.dashboard-links a {
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+    padding: 10px;
+}
+
+.dashboard-links a:hover {
+    background-color: #7956fa;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.all-exercises_container {
+    margin-top: 80px;
+}
+
+.all-exercises_title {
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+.all-exercises_title h2 {
+    text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.295);
+}
+
+.all-exercises_title span {
+    position: relative;
+    top: 30px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.all-exercises_main {
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all-exercises_main h4 {
+    font-size: 14px;
+}
+
+.all-exercises_title h2 {
+    font-size: 38px;
+    font-weight: 600;
+    position: relative;
+    bottom: 16px;
+}
+
+.all-exercises_subtitle small{
+    padding: 8px;
+    border: 2px solid var(--color-primary);
+    font-weight: 600;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.all-exercises_cards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.all-exercise_card:hover {
+    border: 1px solid #1464dd;
+}
+
+.all-exercise_card {
+    padding: 35px 35px;
+    border-top-right-radius: 20px;
+    -webkit-box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71); 
+    box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71);
+    transition: transform 300ms ease;
+    background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+    transition: transform 300ms ease;
+    transition: 0.5s;
+}
+
+.all-exercise_card:hover {
+    transform: scale(1.1);
+}
+
+.exercise_dash-title h6{
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.exercies-dash-info small {
+    position: relative;
+    font-weight: 500;
+    bottom: 8px;
+    right: 8px;
+    color: #f0f0f0;
+}
+
+.all-exercises_sub{
+    padding: 8px;
+    position: relative;
+    bottom: 43px;
+}
+
+.all-exercises_main h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.view-link {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 25px;
+    right: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #ffffff;
+    background: linear-gradient(to top, #2b05b4 30%, #a806d1 90%);
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.view-link:hover {
+    color: #f5f5f5;
+    background-color: #1464dd;
+    border: 1px solid #1464dd;
+}
+
+.intermediate_communication {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.intermediate-communcation_exercises {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.sub-intermediate__exercises {
+    font-weight: 600;
+}
+
+.sub-intermediate_communcation_exercises {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 23px;
+}
+
+/* ========================= SM Media Queries*/
+@media screen and (min-width: 420px) and (max-width: 600px) {
+    .all-exercise_card {
+        padding: 55px 55px;
+        border-top-right-radius: 20px;
+        -webkit-box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71); 
+        box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71);
+        transition: transform 300ms ease;
+        background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+        transition: 0.5s;
+        width: 100%;
+    }
+
+    .view-link {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 25px;
+        font-weight: 500;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #ffffff;
+        background: linear-gradient(to top, #2b05b4 30%, #a806d1 90%);
+        border: 2px solid #757575;
+        border-radius: 5px;
+        width: fit-content;
+        padding: 5px 10px;
+    }
+
+    .sidebar-main li a span {
+        display: none;
+    }
+
+    .sidebar-icon {
+        font-size: 26px;
+    }
+
+
+    .all-exercise_card:hover {
+        transition: none;
+    }
+}
+
+/* ========================= MD Media Queries*/
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .all-exercise_card {
+        padding: 55px 55px;
+        border-top-right-radius: 20px;
+        -webkit-box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71); 
+        box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71);
+        transition: transform 300ms ease;
+        background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+        transition: 0.5s;
+        width: 100%;
+    }
+
+    .view-link {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 25px;
+        font-weight: 500;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #ffffff;
+        background: linear-gradient(to top, #2b05b4 30%, #a806d1 90%);
+        border: 2px solid #757575;
+        border-radius: 5px;
+        width: fit-content;
+        padding: 5px 10px;
+    }
+}
+
+/* ========================= MD Media Queries*/
+@media screen and (min-width: 769px) and (max-width: 943px) {
+    .all-exercise_card {
+        padding: 55px 55px;
+        border-top-right-radius: 20px;
+        -webkit-box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71); 
+        box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71);
+        transition: transform 300ms ease;
+        background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+        transition: 0.5s;
+        width: 100%;
+    }
+
+    .view-link {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 25px;
+        font-weight: 500;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #ffffff;
+        background: linear-gradient(to top, #2b05b4 30%, #a806d1 90%);
+        border: 2px solid #757575;
+        border-radius: 5px;
+        width: fit-content;
+        padding: 5px 10px;
+    }
+}
+
+/* ========================= LG Media Queries*/
+@media screen and (min-width: 944px) and (max-width: 1024px) {
+    .all-exercise_card {
+        padding: 55px 55px;
+        border-top-right-radius: 20px;
+        -webkit-box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71); 
+        box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71);
+        transition: transform 300ms ease;
+        background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+        transition: 0.5s;
+        width: 45%;
+    }
+
+    .view-link {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 25px;
+        font-weight: 500;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #ffffff;
+        background: linear-gradient(to top, #2b05b4 30%, #a806d1 90%);
+        border: 2px solid #757575;
+        border-radius: 5px;
+        width: fit-content;
+        padding: 5px 10px;
+    }
+}
+
+/* ========================= LG Media Queries*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .all-exercise_card {
+        padding: 55px 55px;
+        border-top-right-radius: 20px;
+        -webkit-box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71); 
+        box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71);
+        transition: transform 300ms ease;
+        background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+        transition: 0.5s;
+        width: 42%;
+    }
+
+    .view-link {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 25px;
+        font-weight: 500;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #ffffff;
+        background: linear-gradient(to top, #2b05b4 30%, #a806d1 90%);
+        border: 2px solid #757575;
+        border-radius: 5px;
+        width: fit-content;
+        padding: 5px 10px;
+    }
+}
+
+/* ========================= LG/XL Media Queries*/
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .view-link {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 25px;
+        font-weight: 500;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #ffffff;
+        background: linear-gradient(to top, #2b05b4 30%, #a806d1 90%);
+        border: 2px solid #757575;
+        border-radius: 5px;
+        width: fit-content;
+        padding: 5px 10px;
+    }
+}
+
+/* ========================= XL Media Queries*/
+@media screen and (min-width: 1401px) and (max-width: 1650px) {
+    .all-exercise_card {
+        padding: 55px 55px;
+        border-top-right-radius: 20px;
+        -webkit-box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71); 
+        box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71);
+        transition: transform 300ms ease;
+        background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+        transition: 0.5s;
+        width: 42%;
+    }
+
+    .view-link {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 25px;
+        font-weight: 500;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #ffffff;
+        background: linear-gradient(to top, #2b05b4 30%, #a806d1 90%);
+        border: 2px solid #757575;
+        border-radius: 5px;
+        width: fit-content;
+        padding: 5px 10px;
+    }
+}
+
+/* ========================= XXL Media Queries*/
+@media screen and (min-width: 1651px) and (max-width: 2100px) {
+    .all-exercises_title h2 {
+        font-size: 58px;
+        text-shadow: 3px 8px 3px rgba(0, 0, 0, 0.295);
+    }
+
+    .all-exercise_card {
+        padding: 55px 55px;
+        border-top-right-radius: 20px;
+        -webkit-box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71); 
+        box-shadow: -5px 6px 24px 7px rgba(122,122,122,0.71);
+        transition: transform 300ms ease;
+        background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(88,7,180,1) 49%, rgba(112,112,112,1) 50%);
+        transition: 0.5s;
+        width: 30%;
+    }
+
+    .view-link {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 25px;
+        font-weight: 500;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #ffffff;
+        background: linear-gradient(to top, #2b05b4 30%, #a806d1 90%);
+        border: 2px solid #757575;
+        border-radius: 5px;
+        width: fit-content;
+        padding: 5px 10px;
+    }
+}

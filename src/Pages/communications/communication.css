@@ -1,0 +1,464 @@
+.communications_info {
+  text-align: center;
+  padding: 50px;
+}
+
+.communications-title h1 {
+  font-weight: 600;
+  font-size: 2.2rem;
+  position: relative;
+  bottom: 15px;
+  text-shadow: 10px 10px 0px rgba(156, 156, 156, 0.5);
+}
+
+.communications-title span {
+  color: #1a58cacb;
+}
+
+.communications-title p {
+  position: relative;
+  font-weight: 500;
+  font-size: 15px;
+  top: 10px;
+  text-align: left;
+}
+
+.blobs8 {
+  position: absolute;
+  bottom: 60%;
+  left: 80%;
+}
+
+.communications_line {
+  height: 3px;
+  width: 80%;
+  background: var(--line-color);
+  margin: 40px auto;
+}
+
+.communications-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  gap: 30px;
+  margin-top: 60px;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  bottom: 120px;
+}
+
+.article-info {
+  background-color: #1a58cacb;
+  box-shadow: -3px 14px 14px rgb(0,0,0,0.2);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.article-info h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.article-info p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #fff;
+}
+
+.communications_line1 {
+  height: 3px;
+  width: 80%;
+  background: var(--line-color);
+  position: relative;
+  top: 20px;
+}
+
+.article-info1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.article-info1 {
+  background-color: #1a58cacb;
+  box-shadow: -3px 14px 14px rgb(0,0,0,0.2);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.article-info1 p {
+  text-align: right;
+  padding: 20px;
+  position: relative;
+  bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #fff;
+}
+
+.article-info1 h2 {
+  position: relative;
+  right: 30px;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.communications_line2 {
+  height: 3px;
+  width: 80%;
+  background: var(--line-color);
+  position: relative;
+  bottom: 15px;
+  right: 20px;
+}
+
+.communications-wrapper2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  gap: 30px;
+  height: 400px;
+  width: 100%;
+}
+
+.article-info2  {
+  background-color: #1a58cacb;
+  box-shadow: -3px 14px 14px rgb(0,0,0,0.2);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.article-info2 h2 {
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.article-info2 p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #fff;
+}
+
+.communications_line3 {
+  height: 3px;
+  width: 70%;
+  background: var(--line-color);
+  position: relative;
+  top: 20px;
+}
+
+.article-info3 {
+  background-color: #1a58cacb;
+  box-shadow: -3px 4px 14px rgb(0,0,0,0.3);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.article-info3 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  flex-direction: column;
+  padding: 30px;
+  position: relative;
+  bottom: 250px;
+  width: 93%;
+  margin: auto;
+}
+
+.article-info3 h2 {
+  margin-bottom: 25px;
+  font-size: 24px;
+  position: relative;
+  right: 20px;
+  color: #fff;
+}
+
+.article-info3 p {
+  text-align: right;
+  padding: 20px;
+  position: relative;
+  bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #fff;
+}
+
+.communications_line4 {
+  height: 3px;
+  width: 70%;
+  background: var(--line-color);
+  position: relative;
+  right: 20px;
+  bottom: 15px;
+}
+
+.communications-wrapper4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  gap: 30px;
+  height: 400px;
+  width: 100%;
+}
+
+.article-info5 {
+  background-color: #1a58cacb;
+  box-shadow: -3px 4px 14px rgb(0,0,0,0.3);
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 500;
+  line-height: 1.7;
+  font-size: 16px;
+  color: #fff;
+}
+
+.article-info5 h2 {
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.commun_wrapper {
+  margin: auto;
+  width: 93%;
+}
+
+.communications_line6 {
+  height: 3px;
+  width: 80%;
+  background: var(--line-color);
+  position: relative;
+  top: 20px;
+}
+
+.communcations-cta1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.communcations-cta1 h1 {
+  font-size: 28px;
+  position: relative;
+  bottom: 5px;
+}
+
+.communcations-cta1 small {
+  font-size: 18px;
+}
+
+.communicatinos-cta__btn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.communicate1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border: 1px solid #333;
+  border-radius: 8px;
+  width: 250px;
+  padding: 10px;
+  margin: 30px auto;
+  transition: 0.5s ease;
+}
+
+.communicate1:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.previous-home {
+  font-size: 2.4rem;
+  background: linear-gradient(to top right, #66a3ff 50%, #b266ff 50%);
+  padding: 15px;
+  border-radius: 8px;
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+.previous-home:hover {
+  background: linear-gradient(to top right, #98bef7 50%, #cb98ff 50%);
+}
+
+.prev-btn {
+  position: relative;
+  top: 160px;
+  margin: 0 20px;
+}
+
+.communicate {
+  cursor: pointer;
+}
+
+/* ========================= SM Media Queries*/
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  .communications-wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    position: relative;
+    top: 80px;
+    height: 400px;
+    width: 100%;
+  }
+
+  .communications-wrapper4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 180px;
+  }
+
+  .communications-wrapper5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 270px;
+  }
+
+  .communications-wrapper6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 340px;
+  }
+
+  .communications-wrapper7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 330px;
+  }
+}
+
+/* ========================= MD Media Queries*/
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .communications-wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    position: relative;
+    bottom: 30px;
+    height: 400px;
+    width: 100%;
+  }
+
+  .communications-wrapper4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .communications-wrapper5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    bottom: 65px;
+  }
+
+  .communications-wrapper7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    bottom: 55px;
+  }
+}
+
+/* ========================= XXL Media Queries*/
+@media screen and (min-width: 1651px) and (max-width: 2100px) {
+  .communications-wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 430px;
+    position: relative;
+    bottom: 30px;
+    height: 400px;
+    width: 100%;
+  }
+  
+  .communications-wrapper4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 430px;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .communications-wrapper5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 430px;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    bottom: 65px;
+  }
+
+  .communications-wrapper7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 430px;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    bottom: 55px;
+  }
+}

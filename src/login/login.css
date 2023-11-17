@@ -1,0 +1,338 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #66a3ff77 5%, #fff 5%);
+}
+
+.home_naviagtion {
+  position: relative;
+  left: 150px;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  cursor: pointer;
+}
+
+.sub-login-heading {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.login-card {
+  height: 500px;
+  width: 450px;
+  -webkit-box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+  box-shadow: -5px 6px 24px 7px rgba(122, 122, 122, 0.71);
+  background: linear-gradient(
+    50deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(88, 7, 180, 1) 49%,
+    rgba(112, 112, 112, 1) 50%
+  );
+  border: 1px solid var(--line-color);
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin-top: 30px;
+  transition: 0.5s ease;
+}
+
+.account-login-title {
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+  position: relative;
+}
+
+.login-card:hover {
+  box-shadow: -15px 20px 24px rgb(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+  margin-top: 30px;
+}
+
+input[type="text"],
+input[type="password"] {
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid var(--color-primary);
+  margin: 0 auto;
+  color: #fff;
+}
+
+input {
+  height: 50px;
+  width: 80%;
+  box-shadow: 3px 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+  background-color: #4fa3f149;
+}
+
+label {
+  margin-left: 30px;
+  color: #fff;
+}
+
+.label-icon {
+  font-size: 22px;
+  position: relative;
+  left: 110px;
+  bottom: 3px;
+}
+
+label,
+button {
+  margin-top: 10px;
+}
+
+button {
+  width: 80%;
+  height: 50px;
+  margin: 15px auto;
+  transition: 0.5s ease;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background: var(--line-color);
+}
+
+button:hover {
+  background: var(--color-primary);
+  color: #fafafa;
+}
+
+.signup__info {
+  margin: 20px 50px;
+}
+
+.login-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-line {
+  background-color: #ffffffce;
+  border: 1px solid #333;
+  position: relative;
+  top: 10px;
+  border-radius: 7px;
+  box-shadow: -5px 4px 14px rgb(0, 0, 0, 0.4);
+  width: 150px;
+  font-weight: 600;
+  padding: 3px 12px;
+  transition: 0.5s;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup__info span {
+  position: relative;
+  top: 10px;
+  background: linear-gradient(
+    50deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(88, 7, 180, 1) 49%,
+    rgba(112, 112, 112, 1) 50%
+  );
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow: -5px 4px 14px rgb(0, 0, 0, 0.4);
+  border: 2px solid #5f5f5f;
+  width: 150px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 3px 12px;
+  transition: 0.3s ease;
+}
+
+.signup__info span:hover {
+  background-color: #1b1b1b;
+  color: var(--line-color);
+  margin-top: 6px;
+}
+
+.signup {
+  transition: 0.5s;
+  font-size: 16px;
+  color: #fff;
+}
+
+.signup:hover {
+  color: #fff;
+}
+
+.previous {
+  position: relative;
+  left: 350px;
+}
+
+/* ========================= SM Media Queries*/
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  .login-card {
+    height: 550px;
+    width: 80%;
+    background: #fefefe;
+    border: 1px solid var(--line-color);
+    border-top-right-radius: 50px;
+    margin-top: 150px;
+    box-shadow: -15px 30px 14px rgb(0, 0, 0, 0.2);
+    transition: 0.5s ease;
+  }
+
+  .account-login-title {
+    position: relative;
+    top: 100px;
+  }
+
+  .sub-login-heading {
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    top: 80px;
+  }
+
+  .previous {
+    position: relative;
+    left: 350px;
+  }
+}
+
+/* ========================= MD Media Queries*/
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .previous {
+    position: relative;
+    left: 250px;
+  }
+
+  .home_naviagtion {
+    position: relative;
+    left: 200px;
+    bottom: 80px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    cursor: pointer;
+  }
+}
+
+/* ========================= MD Media Queries*/
+@media screen and (min-width: 769px) and (max-width: 943px) {
+  .previous {
+    position: relative;
+    left: 320px;
+  }
+
+  .home_naviagtion {
+    position: relative;
+    left: 250px;
+    bottom: 80px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    cursor: pointer;
+  }
+}
+
+/* ========================= LG Media Queries*/
+@media screen and (min-width: 944px) and (max-width: 1024px) {
+  .previous {
+    position: relative;
+    left: 380px;
+  }
+
+  .home_naviagtion {
+    position: relative;
+    left: 320px;
+    bottom: 80px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    cursor: pointer;
+  }
+}
+
+/* ========================= LG Media Queries*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .previous {
+    position: relative;
+    left: 430px;
+  }
+
+  .home_naviagtion {
+    position: relative;
+    left: 380px;
+    bottom: 80px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    cursor: pointer;
+  }
+}
+
+/* ========================= LG/XL Media Queries*/
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .previous {
+    position: relative;
+    left: 520px;
+  }
+
+  .home_naviagtion {
+    position: relative;
+    left: 460px;
+    bottom: 80px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    cursor: pointer;
+  }
+}
+
+/* ========================= XL Media Queries*/
+@media screen and (min-width: 1401px) and (max-width: 1650px) {
+  .previous {
+    position: relative;
+    left: 720px;
+  }
+
+  .home_naviagtion {
+    position: relative;
+    left: 650px;
+    bottom: 80px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    cursor: pointer;
+  }
+}
+
+/* ========================= XXL Media Queries*/
+@media screen and (min-width: 1651px) and (max-width: 2100px) {
+  .account-login-title {
+    font-weight: 600;
+    font-size: 3.5rem;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+  }
+
+  .previous {
+    position: relative;
+    left: 850px;
+    bottom: 40px;
+  }
+
+  .home_naviagtion {
+    position: relative;
+    left: 760px;
+    bottom: 120px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    cursor: pointer;
+  }
+}

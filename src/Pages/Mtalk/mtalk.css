@@ -1,0 +1,52 @@
+#get-started1 {
+    position: relative;
+    right: 250px;
+}
+
+/* ========================= SM Media Queries*/
+@media screen and (min-width: 420px) and (max-width: 600px) {
+    .getting-started {
+        position: relative;
+        left: -100px;
+    }
+}
+
+/* ========================= MD Media Queries*/
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .getting-started {
+        position: relative;
+        left: -180px;
+    }
+}
+
+/* ========================= MD Media Queries*/
+@media screen and (min-width: 769px) and (max-width: 943px) {
+    .getting-started {
+        position: relative;
+        left: -230px;
+    }
+}
+
+/* ========================= LG/XL Media Queries*/
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .getting-started {
+        position: relative;
+        left: -305px;
+    }
+}
+
+/* ========================= XL Media Queries*/
+@media screen and (min-width: 1401px) and (max-width: 1650px)  {
+    .getting-started {
+        position: relative;
+        left: -395px;
+    }
+}
+
+/* ========================= XXL Media Queries*/
+@media screen and (min-width: 1651px) and (max-width: 2100px) {
+    .getting-started {
+        position: relative;
+        left: -480px;
+    }
+}

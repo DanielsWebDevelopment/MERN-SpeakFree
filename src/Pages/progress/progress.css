@@ -1,0 +1,383 @@
+.main_container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefefe;
+}
+
+.main_progress-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  right: 4px;
+}
+
+.progress_cards {
+  height: 180px;
+  width: 260px;
+  background-color: #ffffff;
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 300ms ease;
+  -webkit-box-shadow: -16px 5px 16px 1px #9c9c9c;
+  box-shadow: -16px 5px 16px 1px #9c9c9c;
+}
+
+/* keyframes */
+
+@keyframes slideinLeft {
+  from {
+    transform: translateX(350px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.progress_cards:hover {
+  border: 2px solid #196ff0;
+  transform: scale(1) rotate(8deg);
+}
+
+.progress-card_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 65px;
+}
+
+.coming_soon {
+  color: #161616;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.progression_title {
+  position: relative;
+  bottom: 130px;
+  font-weight: 600;
+  font-size: 56px;
+}
+
+.progression_title span {
+  color: #1a58cacb;
+}
+
+.checkback_soon {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkback_soon span {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.checkback_soon small {
+  position: relative;
+  top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* ========================= SM Media Queries*/
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  .progression_title {
+    font-weight: 600;
+    font-size: 56px;
+    margin-top: 250px;
+  }
+
+  .main_progress-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    right: 4px;
+  }
+
+  .progress_cards {
+    height: 250px;
+    width: 350px;
+    background-color: #ffffff;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    -webkit-box-shadow: 0px 0px 17px 13px #cccccc;
+    box-shadow: 0px 0px 17px 13px #cccccc;
+  }
+
+  .progress-card_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+  }
+}
+
+/* ========================= MD Media Queries*/
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .progression_title {
+    font-weight: 600;
+    font-size: 56px;
+    margin-top: 250px;
+  }
+
+  .main_progress-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    right: 4px;
+  }
+
+  .progress_cards {
+    height: 250px;
+    width: 300px;
+    background-color: #ffffff;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    -webkit-box-shadow: 0px 0px 17px 13px #cccccc;
+    box-shadow: 0px 0px 17px 13px #cccccc;
+  }
+}
+
+/* ========================= MD Media Queries*/
+@media screen and (min-width: 769px) and (max-width: 943px) {
+  .progression_title {
+    font-weight: 600;
+    font-size: 56px;
+    margin-top: 250px;
+  }
+
+  .main_progress-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    right: 4px;
+  }
+
+  .progress_cards {
+    height: 250px;
+    width: 380px;
+    background-color: #ffffff;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    -webkit-box-shadow: 0px 0px 17px 13px #cccccc;
+    box-shadow: 0px 0px 17px 13px #cccccc;
+  }
+
+  .progress-card_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+  }
+}
+
+/* ========================= LG Media Queries*/
+@media screen and (min-width: 944px) and (max-width: 1024px) {
+  .progression_title {
+    font-weight: 600;
+    font-size: 56px;
+    margin-top: 250px;
+  }
+
+  .main_progress-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    right: 4px;
+  }
+
+  .progress_cards {
+    height: 250px;
+    width: 380px;
+    background-color: #ffffff;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    -webkit-box-shadow: 0px 0px 17px 13px #cccccc;
+    box-shadow: 0px 0px 17px 13px #cccccc;
+  }
+
+  .progress-card_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+  }
+}
+
+/* ========================= LG Media Queries*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .progression_title {
+    font-weight: 600;
+    font-size: 56px;
+    margin-top: 250px;
+  }
+
+  .main_progress-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    right: 4px;
+  }
+
+  .progress_cards {
+    height: 250px;
+    width: 340px;
+    background-color: #ffffff;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    -webkit-box-shadow: 0px 0px 17px 13px #cccccc;
+    box-shadow: 0px 0px 17px 13px #cccccc;
+  }
+
+  .progress-card_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+  }
+}
+
+/* ========================= LG/XL Media Queries*/
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .progression_title {
+    font-weight: 600;
+    font-size: 56px;
+    margin-top: 250px;
+  }
+
+  .main_progress-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    right: 4px;
+  }
+
+  .progress_cards {
+    height: 280px;
+    width: 380px;
+    background-color: #ffffff;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    -webkit-box-shadow: 0px 0px 17px 13px #cccccc;
+    box-shadow: 0px 0px 17px 13px #cccccc;
+  }
+
+  .progress-card_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+  }
+}
+
+/* ========================= XL Media Queries*/
+@media screen and (min-width: 1401px) and (max-width: 1650px) {
+  .progression_title {
+    font-weight: 600;
+    font-size: 56px;
+    margin-top: 250px;
+  }
+
+  .main_progress-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    right: 4px;
+  }
+
+  .progress_cards {
+    height: 300px;
+    width: 400px;
+    background-color: #ffffff;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    -webkit-box-shadow: 0px 0px 17px 13px #cccccc;
+    box-shadow: 0px 0px 17px 13px #cccccc;
+  }
+
+  .progress-card_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+  }
+}
+
+/* ========================= XXL Media Queries*/
+@media screen and (min-width: 1651px) and (max-width: 2100px) {
+  .progression_title {
+    font-weight: 600;
+    font-size: 56px;
+    margin-top: 250px;
+  }
+
+  .main_progress-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    right: 4px;
+  }
+
+  .progress_cards {
+    height: 300px;
+    width: 400px;
+    background-color: #ffffff;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    -webkit-box-shadow: 0px 0px 17px 13px #cccccc;
+    box-shadow: 0px 0px 17px 13px #cccccc;
+  }
+
+  .progress-card_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+  }
+}

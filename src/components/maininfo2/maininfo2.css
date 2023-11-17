@@ -1,0 +1,175 @@
+.info2 {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 30px;
+}
+
+.info-image1 img {
+    border-radius: 8px;
+    box-shadow: 4px 4px 20px rgb(0,0,0,0.3);
+    transition: 0.5s ease;
+    height: 320px;
+    max-width: 320px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.info-image1 img:hover {
+    transform: translate(0) rotate(12deg);
+    transition: 0.5s ease;
+}
+
+.self__paced-info1 h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.self__paced-info1 p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 24px;
+    line-height: 1.8;
+}
+
+/* ========================= SM Media Queries*/
+@media screen and (min-width: 420px) and (max-width: 600px) {
+    .info2 {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+        padding: 30px;
+    }
+
+    .info-image1 img {
+        border-radius: 8px;
+        box-shadow: 4px 4px 20px rgb(0,0,0,0.3);
+        transition: 0.5s ease;
+        height: 350px;
+        max-width: 150%;
+        position: relative;
+        left: 15px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+    .self__paced-info1 {
+        margin-left: 60px;
+    }
+}
+
+/* ========================= MD Media Queries*/
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .info2 {
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .info-image1 img {
+        border-radius: 8px;
+        box-shadow: 4px 4px 20px rgb(0,0,0,0.3);
+        transition: 0.5s ease;
+        height: 300px;
+        width: 280px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+}
+
+/* ========================= LG Media Queries*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .info2 {
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        padding: 0px 120px;
+    }
+
+    .info-image1 img {
+        border-radius: 8px;
+        box-shadow: 4px 4px 20px rgb(0,0,0,0.3);
+        transition: 0.5s ease;
+        height: 320px;
+        max-width: 320px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+}
+
+/* ========================= LG/XL Media Queries*/
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .info2 {
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+        padding: 0px 120px;
+    }
+
+    .info-image1 img {
+        border-radius: 8px;
+        box-shadow: 4px 4px 20px rgb(0,0,0,0.3);
+        transition: 0.5s ease;
+        height: 320px;
+        max-width: 320px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+}
+
+/* ========================= XL Media Queries*/
+@media screen and (min-width: 1401px) and (max-width: 1650px) {
+    .info2 {
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 180px;
+    }
+
+    .info-image1 img {
+        border-radius: 8px;
+        box-shadow: 4px 4px 20px rgb(0,0,0,0.3);
+        transition: 0.5s ease;
+        height: 320px;
+        max-width: 320px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+}
+
+/* ========================= XXL Media Queries*/
+@media screen and (min-width: 1651px) and (max-width: 2100px)  {
+    .info2 {
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 240px;
+        padding: 0 150px;
+    }
+
+    .info-image1 img {
+        border-radius: 8px;
+        box-shadow: 4px 4px 20px rgb(0,0,0,0.3);
+        transition: 0.5s ease;
+        height: 320px;
+        max-width: 320px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+}

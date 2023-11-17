@@ -1,0 +1,102 @@
+.login-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input::placeholder {
+    position: relative;
+    left: 20px;
+    font-size: 14px;
+}
+
+.register_link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+
+.register_title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+}
+
+.register_title::after {
+    content: '';
+    background: var(--color-primary);
+    height: 2px;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 105%;
+}
+
+/* ========================= SM Media Queries*/
+@media screen and (min-width: 420px) and (max-width: 600px) {
+    .register_title {
+        font-size: 3rem;
+        font-weight: 600;
+        position: relative;
+        top: 40px;
+    }
+}
+
+/* ========================= MD Media Queries*/
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .register_title {
+        font-size: 2.8rem;
+        font-weight: 600;
+    }
+}
+
+/* ========================= LG Media Queries*/
+@media screen and (min-width: 944px) and (max-width: 1024px)  {
+    .register_title {
+        font-size: 3.6rem;
+        font-weight: 600;
+    }
+}
+
+/* ========================= LG Media Queries*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .register_title {
+        font-size: 3.8rem;
+        font-weight: 600;
+    }
+}
+
+/* ========================= LG/XL Media Queries*/
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .register_title {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+}
+
+/* ========================= XL Media Queries*/
+@media screen and (min-width: 1401px) and (max-width: 1650px) {
+    .register_title {
+        font-size: 4.1rem;
+        font-weight: 600;
+    }
+}
+
+/* ========================= XXL Media Queries*/
+@media screen and (min-width: 1651px) and (max-width: 2100px) {
+    .register_title {
+        font-size: 4.2rem;
+        font-weight: 600;
+    }
+}
