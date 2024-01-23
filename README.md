@@ -26,7 +26,7 @@
 
 ## <i>"Quick Start"</i>
 
-##### In your Terminal, you can use 
+##### In your Terminal, you can run 
 ##### * npm start (Front-End)
 ##### * npm server.js (Back-end)
 
