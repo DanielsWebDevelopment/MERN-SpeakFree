@@ -23,7 +23,7 @@
 ### 4. Open a pull Request. 
 ##### Go to your fork on Github and open a pull request with a clear description of your changes.
 
-##### View this project Live! https://rad-pastelito-9acf7f.netlify.app/
+##### View this project Live! <br> https://rad-pastelito-9acf7f.netlify.app/
 
 ### Project Homepage 🚀
 ![SpeakFree - Home](https://github.com/DanielsWebDevelopment/Task-Manager-js/assets/129445203/0f081dbf-cc4d-4b26-ac9d-eedf6fc4373e)
