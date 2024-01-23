@@ -15,8 +15,8 @@
 ### How to Contribute: 🚀
 ##### We welcome contributions to make SpeakFree even better! <br>Here's how to contribute to the project. 
 
-### 1. Fork the Respitory. 
-##### Click the "fork" button at the top right corner of the respitory page. 
+### 1. Fork the Repository. 
+##### Click the "fork" button at the top right corner of the repository page. 
 ### 2. Create a Branch
 ##### Make your desired changes and ensure the code follows the projects coding standards.
 #### 3. Commit / Push Your Changes. 
