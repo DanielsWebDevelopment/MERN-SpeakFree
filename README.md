@@ -23,6 +23,17 @@
 ### 4. Open a pull Request. 
 ##### Go to your fork on Github and open a pull request with a clear description of your changes.
 
+
+## <i>"Quick Start"</i>
+
+##### In your Terminal, you can use 
+##### * npm start (Front-End)
+##### * npm server.js (Back-end)
+
+## Found a bug?
+###### If you found a bug or would like to submit an improvement to this project, Please submit an new issue request to be reviewed. 
+
+
 ##### View this project Live! 
 ###### https://rad-pastelito-9acf7f.netlify.app/
 
